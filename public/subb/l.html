@@ -1,0 +1,130 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> CSS Layout - overflow </title>
+    <link rel="stylesheet" type="text/css" href="../learncss.css">
+    <style>
+        .pre {
+        background-color:#F1F1F1;
+        border:1px solid #00000;
+        padding:10px;
+        overflow:auto
+        margin:7px;
+        color:#0150c7; 
+        }
+        .div {
+        background-color: #eee;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: auto;
+        }
+        .v {
+        background-color: #eee;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: scroll;
+        }
+        .i {
+        background-color: #eee;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: hidden;
+        }
+        .d {
+        background-color: #eee;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: visible;
+        }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row"> 
+              <h1 class="col-sm-4"><a href="../proyectopersonal.html", class="nounderline"> Páginas Webs </a></h1>
+              <body link="black" vlink="black" alink="#A4A4A4">
+                <div class="col-sm-4"><p><a href="../quees.html">¿Qué es?</a></p></div>
+                <div class="col-sm-4"><p><a href="../learnhtml.html">HTML</a></p></div>
+                <div class="col-sm-4"><p><a href="../learncss.html">CSS</a></p></div>
+                <div class="col-sm-4"><p><a href="../contacto.html">Contacto</a></p></div>
+          </div>
+        </header>
+      </div>
+      <br>
+      <br>
+      <nav>
+        <h2> Secciones </h2>
+          <ul>
+            <li><a href="../learncss.html">Sintaxis y selectores CSS </a></li>
+            <li><a href="h.html">¿Cómo insertar CSS?</a></li>
+            <li><a href="j.html">Box Model CSS</a></li>          
+            <li><a href="k.html">CSS Layout - position</a></li>
+            <li><a href="#1">CSS Layout - overflow</a></li>
+            <li><a href="m.html">CSS Layout - float y clear</a></li>
+          </ul>
+      </nav>
+
+      <article>
+      <h1> <a name="1"> CSS LAYOUT - OVERFLOW </h1>
+      <p align="justify">La propiedad de overflow CSS especifica si se debe recortar contenido o agregar barras de desplazamiento cuando el contenido de un elemento es demasiado grande para caber en un área especificada.: </p>
+      <ul>
+        <li><b>visible</b>: la forma predeterminada. El overflow es visible, lo que significa que no está recortado y se hace fuera de la caja del elemento:        
+        <pre class="pre">div {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: visible;
+}</pre>
+<div class="d">Puedes utilizar la propiedad de overflow cuando desea tener un mejor control del diseño. La propiedad de overflow especifica qué ocurre si el contenido desborda el cuadro de un elemento.</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_visible"> <u> Pruebalo tu mismo </u> </a> </p></li>
+        <li><b>hidden</b>: el overflow se recorta y el resto del contenido se oculta:
+        <pre class="pre">div {
+    overflow: hidden;
+}
+</pre>
+<div class="i">Puedes utilizar la propiedad de overflow cuando desea tener un mejor control del diseño. La propiedad de overflow especifica qué ocurre si el contenido desborda el cuadro de un elemento.</div>
+<p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_hidden"> <u> Pruebalo tu mismo </u> </a> </p></li>
+        <li><b>scroll</b>: el overflow se acorta y se agrega una barra de desplazamiento para desplazarse dentro del cuadro. Tenga en cuenta que esto agregará una barra de desplazamiento horizontal y verticalmente (incluso si no lo necesitas):
+        <pre class="pre">div {
+    overflow: scroll;
+}
+</pre>
+<div class="v">Puedes utilizar la propiedad de overflow cuando desea tener un mejor control del diseño. La propiedad de overflow especifica qué ocurre si el contenido desborda el cuadro de un elemento.</div>
+<p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_scroll"> <u> Pruebalo tu mismo </u> </a> </p></li></li>
+        <li><b>auto</b>: El valor automático es similar a scroll, sólo que añade barras de desplazamiento solo cuando sea necesario:
+        <pre class="pre">div {
+    overflow: auto;
+}</pre>
+<div class="div">Puedes utilizar la propiedad de overflow cuando desea tener un mejor control del diseño. La propiedad de overflow especifica qué ocurre si el contenido desborda el cuadro de un elemento.</div>
+<p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_auto"> <u> Pruebalo tu mismo </u> </a> </p></li>
+        </li>
+      </ul>
+      <br>
+      <table>
+        <td>
+          <th><a href=m.html>Seguir con el curso</a></th>
+        </td>
+      </table>
+      </article>
+      <br>
+      <br>
+
+      <footer>
+        <p> Creado por Kangxin Chen, alumna de SEK CATALUNYA. </p>
+        <p> La web abierta a cualquier persona interesada en la programación. </p>
+        <p> Copyright&copy 2017-2018 proyectopersonal.com </p>
+        </footer>
+
+</body>
+</html>

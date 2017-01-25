@@ -1,0 +1,98 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> ¿Cómo insertar CSS? </title>
+    <link rel="stylesheet" type="text/css" href="../learncss.css">
+    <style>
+        .pre {
+        background-color:#F1F1F1;
+        border:1px solid #00000;
+        padding:10px;
+        overflow:auto
+        margin:7px;
+        color:#0150c7; 
+        }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row"> 
+              <h1 class="col-sm-4"><a href="../proyectopersonal.html", class="nounderline"> Páginas Webs </a></h1>
+              <body link="black" vlink="black" alink="#A4A4A4">
+                <div class="col-sm-4"><p><a href="../quees.html">¿Qué es?</a></p></div>
+                <div class="col-sm-4"><p><a href="../learnhtml.html">HTML</a></p></div>
+                <div class="col-sm-4"><p><a href="../learncss.html">CSS</a></p></div>
+                <div class="col-sm-4"><p><a href="../contacto.html">Contacto</a></p></div>
+          </div>
+        </header>
+      </div>
+      <br>
+      <br>
+      <nav>
+        <h2> Secciones </h2>
+          <ul>
+            <li><a href="../learncss.html">Sintaxis y selectores CSS </a></li>
+            <li><a href="#1">¿Cómo insertar CSS?</a></li>
+            <li><a href="j.html">Box Model CSS</a></li>
+            <li><a href="k.html">CSS Layout - position</a></li>
+            <li><a href="l.html">CSS Layout - overflow</a></li>
+            <li><a href="m.html">CSS Layout - float y clear</a></li>
+          </ul>
+      </nav>
+
+      <article>
+      <h1> <a name="1"> ¿CÓMO INSERTAR CSS? </h1>
+      <p> Hay 3 maneras de insertar CSS:</p>
+      <ol>
+        <li>External style sheet</li>
+        <li>Internal style sheet</li>
+        <li>Inline style</li>
+      </ol>
+      <hr>
+      <h2 style="font-size:150%;"><u>External style sheet</u></h2>
+      <p>Puedes cambiar el aspecto de un sitio web entero con sólo un archivo externo.</p>
+      <pre class="pre">&lthead&gt
+&ltlink rel="stylesheet" type="text/css" href="mystyle.css"&gt
+&lt/head&gt
+      </pre>
+      <p algin="justify"> Para vincular el documento css con el documento HTML, se debe escribir una elemento en la sección de <b>head</b>. Y dentro del <b>head</b>, se debe incluir una referencia al archivo de hoja de estilo externo dentro del elemento <b>link </b>.
+      <p>La hoja CSS externa se puede escribir en cualquier editor de texto, pero no debe contener ninguna etiqueta html y se debe guardar con una extensión <b>.css</b>. 
+      <h2 style="font-size:150%;"><u>Internal style sheet</u></h2>
+      <p>Utilizamos éste en el mismo documento HTML que queremos modificar su estilo, en la sección de <b>head</b> y lo definimos con la etiqueta <b>style</b>.</p>
+      <pre class="pre">&lthead&gt
+&ltstyle&gt
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+&lt/style&gt
+&lt/head&gt
+      </pre>
+      <h2 style="font-size:150%;"><u>Inline Styles</u></h2>
+      <p>Se puede aplicar un estilo único en un solo elemento. Para utilizar estilos en línea, se debe añadir el atributo de estilo al elemento pertinente. El atributo de estilo puede contener cualquier propiedad CSS.</p>
+      <pre class="pre">&lth1 style="color:blue;margin-left:30px;"&gtEsto es un heading.&lt/h1&gt
+      </pre>
+      <br>
+      <table>
+        <td>
+          <th><a href=j.html>Seguir con el curso</a></th>
+        </td>
+      </table>
+      </article>
+      <br>
+      <br>
+
+      <footer>
+        <p> Creado por Kangxin Chen, alumna de SEK CATALUNYA. </p>
+        <p> La web abierta a cualquier persona interesada en la programación. </p>
+        <p> Copyright&copy 2017-2018 proyectopersonal.com </p>
+        </footer>
+
+</body>
+</html>

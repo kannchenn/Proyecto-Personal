@@ -1,0 +1,110 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Head </title>
+    <link rel="stylesheet" type="text/css" href="../learnhtml.css">
+    <style>
+        .pre {
+        background-color:#F1F1F1;
+        border:1px solid #00000;
+        padding:10px;
+        overflow:auto
+        margin:7px;
+        color:#0150c7; 
+        }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row"> 
+              <h1 class="col-sm-4"><a href="../proyectopersonal.html", class="nounderline"> Páginas Webs </a></h1>
+              <body link="black" vlink="black" alink="#A4A4A4">
+                <div class="col-sm-4"><p><a href="../quees.html">¿Qué es?</a></p></div>
+                <div class="col-sm-4"><p><a href="../learnhtml.html">HTML</a></p></div>
+                <div class="col-sm-4"><p><a href="../learncss.html">CSS</a></p></div>
+                <div class="col-sm-4"><p><a href="../contacto.html">Contacto</a></p></div>
+          </div>
+        </header>
+      </div>
+
+        <br>
+        <br>
+
+      <nav>
+        <h2> Secciones </h2>
+          <ul>
+            <li><a href="../learnhtml.html">Estructura Interna </a></li>
+            <li><a href=1.html>Elementos y etiquetas</a></li>
+            <li><a href=2.html>Atributos</a></li>
+            <li><a href=3.html>Encabezamientos</a></li>
+            <li><a href="4.html">Parágrafos</a></li>
+            <li><a href="5.html">Estilos y Formateo</a></li>
+            <li><a href="6.html">Codigo de computadora</a></li>
+            <li><a href="7.html">Comentarios</a></li>
+            <li><a href="8.html">Link</a></li>
+            <li><a href="9.html">Imágenes</a></li>
+            <li><a href="a.html">Tablas</a></li>
+            <li><a href="b.html">Listas</a></li>
+            <li><a href="c.html">Bloques y Inline Elementos</a></li>
+            <li><a href="d.html">Clases</a></li>
+            <li><a href="e.html">iFrames</a></li>
+            <li><a href=#1>Head</a></li>
+          </ul>
+      </nav>
+
+      <article>
+        <h1><a name=1>HEAD</h1>
+        <p align="justify">El elemento <b>head</b> es un contenedor de metadatos (datos sobre datos) y se coloca entre la etiqueta <b>html</b> y la etiqueta <b>body</b>. La metadata no son mostradas en las páginas webs, sirven para demostrar informaciones(el título del documento, el conjunto de caracteres, los estilos, los vínculos, los scripts,etc.) sobre el documento HTML. Las etiquetas que se utilizan dentro de <b>head</b> son:</p>
+        <ul>
+        <li>&lttitle&gt</li>
+        <p align="justify">Este elemento defina el título en la pestaña del navegador del documento HTML, proporciona un título para la página cuando se añade a los favoritos, muestra un título para la página en los resultados de los motores de búsqueda.</p>
+        <li>&ltstyle&gt</li>
+        <p align="justify">Este elemento sirve para definir información del estilo para una página HTML (CSS)</p>
+        <li>&ltmeta&gt</li>
+        <p align="justify">Se utiliza para especificar qué conjunto de caracteres queremos utilizar, la descripción de la página, las palabras clave, el autor y otros metadatos. Por ejemplo:</p>
+        <ul>
+        <li>Para definir el conjunto de caracteres utilizado:</li>
+        <p class="pre">&ltmeta charset="UTF-8"&gt</p>
+        <li>Para definir una descripción de la página web:</li>
+        <p class="pre">&ltmeta name="description" content="La Programación"&gt</p>
+        <li>Para definir palabras clave para los motores de búsqueda:</li>
+        <p class="pre">&ltmeta name="keywords" content="HTML, CSS"&gt</p>
+        <li>Para definir el autor de la página:</li>
+        <p class="pre">&ltmeta name="author" content="Kangxin Chen"&gt</p>
+        <li>Para actualizar documento cada 30 segundos:</li>
+        <p class="pre">&ltmeta http-equiv="refresh" content="30"&gt</p>
+        </ul>
+        <li>&ltlink&gt</li>
+        <p align="justify">Este elemento se utiliza para vincular a hojas externas. (para vincular con CSS, Javascript...) Por ejemplo:</p>
+        <p class="pre">&ltlink rel="stylesheet" href="mystyle.css"&gt</p>
+        <li>&ltscript&gt</li>
+        <p align="justify">Este elemento se utiliza para escribir códigos de Javascript y dar esta información a la página web. Por ejemplo:</p>
+        <pre class="pre">&ltscript&gt
+function myFunction {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+&lt/script&gt</pre>
+        <li>&ltbase&gt</li>
+        <p>Especifica la URL base y el objetivo base para todas las URL relativas de una página. Por ejemplo, si queremos que se abra el link en una nueva página:</p>
+        <p class="pre">&ltbase href="http://www.w3schools.com/images/" target="_blank"&gt</p>
+        </ul>
+      <br>
+      <table>
+        <td>
+          <th><a href=g.html>Seguir con el curso</a></th>
+        </td>
+      </table>
+      </article>
+      <br>
+      <br>
+      
+      <footer>
+        <p> Creado por Kangxin Chen, alumna de SEK CATALUNYA. </p>
+        <p> La web abierta a cualquier persona interesada en la programación. </p>
+        <p> Copyright 2017-2018&copy proyectopersonal.com </p>
+        </footer>
+
+</body>
+</html>

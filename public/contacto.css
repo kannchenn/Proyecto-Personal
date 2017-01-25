@@ -1,0 +1,47 @@
+a:link   
+{   
+ text-decoration:none;   
+}   
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  padding:5 20px;
+  border: 2px solid grey;
+}
+
+header p {
+  display: flex;
+  justify-content: flex-end;
+  width:65%;
+  padding: 0 70px;
+  margin: 0;
+}
+
+.formulario {
+  margin:0;
+  padding:0 20px;
+  border:2px solid grey;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 15px;
+}
+    

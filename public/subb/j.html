@@ -1,0 +1,79 @@
+<html>
+  <!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Box Model CSS </title>
+    <link rel="stylesheet" type="text/css" href="../learncss.css">
+    <style>
+        .pre {
+        background-color:#F1F1F1;
+        border:1px solid #00000;
+        padding:10px;
+        overflow:auto
+        margin:7px;
+        color:#0150c7; 
+        }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row"> 
+              <h1 class="col-sm-4"><a href="../proyectopersonal.html", class="nounderline"> Páginas Webs </a></h1>
+              <body link="black" vlink="black" alink="#A4A4A4">
+                <div class="col-sm-4"><p><a href="../quees.html">¿Qué es?</a></p></div>
+                <div class="col-sm-4"><p><a href="../learnhtml.html">HTML</a></p></div>
+                <div class="col-sm-4"><p><a href="../learncss.html">CSS</a></p></div>
+                <div class="col-sm-4"><p><a href="../contacto.html">Contacto</a></p></div>
+          </div>
+        </header>
+      </div>
+      <br>
+      <br>
+      <nav>
+        <h2> Secciones </h2>
+          <ul>
+            <li><a href="../learncss.html">Sintaxis y selectores CSS </a></li>
+            <li><a href="h.html">¿Cómo insertar CSS?</a></li>
+            <li><a href="#1">Box Model CSS</a></li>
+            <li><a href="k.html">CSS Layout - position</a></li>
+            <li><a href="l.html">CSS Layout - overflow</a></li>
+            <li><a href="m.html">CSS Layout - float y clear</a></li>
+          </ul>
+      </nav>
+
+      <article>
+      <h1> <a name="1"> BOX MODEL CSS </h1>
+      <p align="justify">Todos los elementos HTML se pueden considerar como cajas. En CSS, el término "modelo de caja" se usa cuando se habla de diseño. El modelo de caja CSS es esencialmente una caja que rodea cada elemento HTML. Consiste en: márgenes, bordes, relleno, y el contenido real. La imagen de abajo ilustra el modelo de caja:</p>
+      <img src=../fotos/25.gif width="1000" height="500">
+      <ul>
+        <li><b>Contenido</b> - El contenido del cuadro, donde aparecen texto e imágenes.</li>
+        <li><b>Padding</b> - Un área alrededor del contenido. El relleno es transparente. </li>
+        <li><b>Border</b> - Una frontera que circunda el relleno y el contenido.</li>
+        <li><b>Margen</b> - Un área fuera de la frontera. El margen es transparente.</li>
+      </ul>
+      <pre class="pre">div {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}</pre>
+    <p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel"> <u> Pruebalo tu mismo </u> </a> </p>
+      <br>
+      <table>
+        <td>
+          <th><a href=k.html>Seguir con el curso</a></th>
+        </td>
+      </table>
+      </article>
+      <br>
+      <br>
+
+      <footer>
+        <p> Creado por Kangxin Chen, alumna de SEK CATALUNYA. </p>
+        <p> La web abierta a cualquier persona interesada en la programación. </p>
+        <p> Copyright&copy 2017-2018 proyectopersonal.com </p>
+        </footer>
+
+</body>
+</html>
