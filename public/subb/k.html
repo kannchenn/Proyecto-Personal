@@ -11,14 +11,14 @@
         padding:10px;
         overflow:auto
         margin:7px;
-        color:#0150c7; 
+        color:#0150c7;
         }
       </style>
   </head>
   <body>
       <div class="container">
         <header>
-          <div class="row"> 
+          <div class="row">
               <h1 class="col-sm-4"><a href="../index.html", class="nounderline"> Páginas Web </a></h1>
               <body link="black" vlink="black" alink="#A4A4A4">
                 <div class="col-sm-4"><p><a href="../quees.html">¿Qué es?</a></p></div>
@@ -33,9 +33,9 @@
       <nav>
         <h2> Secciones </h2>
           <ul>
-            <li><a href="../learncss.html">Sintaxis y selectores CSS </a></li>
+            <li><a href="../learncss.html">Sintáxis y selectores CSS </a></li>
             <li><a href="h.html">¿Cómo insertar CSS?</a></li>
-            <li><a href="j.html">Box Model CSS</a></li>          
+            <li><a href="j.html">Box Model CSS</a></li>
             <li><a href="#1">CSS Layout - position</a></li>
             <li><a href="l.html">CSS Layout - overflow</a></li>
             <li><a href="m.html">CSS Layout - float y clear</a></li>
@@ -46,13 +46,13 @@
       <h1> <a name="1"> CSS LAYOUT - POSITION </h1>
       <p align="justify">La propiedad de posición especifica el tipo de método de posicionamiento utilizado para un elemento. Hay 4 diferentes posiciones: </p>
       <ul>
-        <li><b>static</b>: la forma predeterminada. Se posiciona dependiendo el flow de la página web. 
+        <li><b>static</b>: la forma predeterminada. Se posiciona siguiendo el flujo de la página web (un elemento tras otro).
         <pre class="pre">div.static {
     position: static;
     border: 3px solid #73AD21;
 }</pre>
 <p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_position_static"> <u> Pruébalo tú mismo </u> </a> </p></li>
-        <li><b>relative</b>: ajustar las propiedades superior, derecha, inferior e izquierda de un elemento relativamente posicionado hará que se ajuste lejos de su posición normal. El resto del contenido no se ajustará para caber en cualquier hueco que deje el elemento.
+        <li><b>relative</b>: ajustar las propiedades superior, derecha, inferior e izquierda de un elemento relativamente posicionado hará que se ajuste lejos de su posición normal. El resto del contenido no se ajustará con respecto a éste.
         <pre class="pre">div.relative {
     position: relative;
     left: 30px;
@@ -68,13 +68,13 @@
     border: 3px solid #73AD21;
 }</pre>
 <p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed"> <u> Pruébalo tú mismo </u> </a> </p></li></li>
-        <li><b>absolute</b>: se posiciona en relación con el antepasado posicionado más próximo (en lugar de posicionado con respecto a la ventana gráfica, como fijo). Sin embargo, si un elemento posicionado absoluto no tiene ancestros posicionados, utiliza el cuerpo del documento y se mueve junto con el desplazamiento de la página.
+        <li><b>absolute</b>: se posiciona en relación al elemento que lo contiene (en lugar de posicionado con respecto a la ventana). Sin embargo, si un elemento posicionado de forma absoluta no está dentro de ningún otro elemento, utiliza el cuerpo del documento y se mueve junto con el desplazamiento de la página.
         <pre class="pre">div.relative {
     position: relative;
     width: 400px;
     height: 200px;
     border: 3px solid #73AD21;
-} 
+}
 
 div.absolute {
     position: absolute;
@@ -88,7 +88,7 @@ div.absolute {
 <p> <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute"> <u> Pruébalo tú mismo </u> </a> </p></li>
         </li>
       </ul>
-      <p align="justify"> Los elementos se colocan utilizando las propiedades top(arriba), bottom(abajo, left(izquierda), y right(derecha). Sin embargo, estas propiedades no funcionarán si la propiedad de posición no se establezca primero. También funcionan de manera diferente dependiendo del valor de la posición.</p>
+      <p align="justify"> Los elementos se colocan utilizando las propiedades top (arriba), bottom (abajo), left (izquierda), y right (derecha). Sin embargo, estas propiedades no funcionarán si la propiedad de posición no se establece primero. También funcionan de manera diferente dependiendo del valor de la posición.</p>
 
       <br>
       <table>
