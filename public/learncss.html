@@ -2,7 +2,7 @@
 	<!DOCTYPE html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title> Sintaxis y selectores CSS </title>
+		<title> Sintáxis y selectores CSS </title>
 		<link rel="stylesheet" type="text/css" href="learncss.css">
     <style>
         .pre {
@@ -11,15 +11,15 @@
         padding:10px;
         overflow:auto
         margin:7px;
-        color:#0150c7; 
+        color:#0150c7;
         }
       </style>
 	</head>
 	<body>
 		  <div class="container">
         <header>
-          <div class="row"> 
-              <h1 class="col-sm-4"><a href="index.html", class="nounderline"> Páginas Webs </a></h1>
+          <div class="row">
+              <h1 class="col-sm-4"><a href="index.html", class="nounderline"> Páginas Web </a></h1>
               <body link="black" vlink="black" alink="#A4A4A4">
                 <div class="col-sm-4"><p><a href="quees.html">¿Qué es?</a></p></div>
                 <div class="col-sm-4"><p><a href="learnhtml.html">HTML</a></p></div>
@@ -33,7 +33,7 @@
       <nav>
         <h2> Secciones </h2>
           <ul>
-            <li><a href="#1">Sintaxis y selectores CSS </a></li>
+            <li><a href="#1">Sintáxis y selectores CSS </a></li>
             <li><a href="subb/h.html">¿Cómo insertar CSS?</a></li>
             <li><a href="subb/j.html">Box Model CSS</a></li>
             <li><a href="subb/k.html">CSS Layout - position</a></li>
@@ -43,42 +43,42 @@
       </nav>
 
       <article>
-      <h1> <a name="1"> SINTAXI Y SELECTORES CSS </h1>
+      <h1> <a name="1"> SINTÁXIS Y SELECTORES CSS </h1>
       <br/>
-      <h2 style="font-size:150%;"><u>Sintaxi</u></h2>
-      <p> El sintaxi de CSS consiste en un selector y bloques de declaración:</p>
+      <h2 style="font-size:150%;"><u>Sintáxis</u></h2>
+      <p> La sintáxis de CSS consiste en un selector y bloques de declaración:</p>
       <img src=fotos/24.gif width="500" height="100">
       <p align="justify"> El <b>selector</b> señala al elemento HTML que desea diseñar. El <b>bloque de declaración</b> contiene una o más declaraciones separadas por punto y coma. Cada declaración incluye <b>un nombre de propiedad CSS y un valor</b>, separados por dos puntos. Una declaración CSS siempre termina con un punto y coma, y los bloques de declaración están rodeados de llaves.</p>
       <br/>
       <h2 style="font-size:150%;"><u>Selectores</u></h2>
       <br/>
       <h3 style="font-size:100%";> <b>El Selector <u>element</u></b></h3>
-      <p align="justify"> El selector de elementos selecciona elementos basados en el nombre del elemento. Puedes seleccionar todos los elementos <b>p</b> en una página como ésta:</p>
+      <p align="justify"> El selector de elementos selecciona elementos basados en el nombre del elemento. Puedes seleccionar todos los elementos <b>p</b> en una página de la siguiente forma:</p>
       <pre class="pre">p {
-    text-align: center;
-    color: red;
-}</pre>
-      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOQMIYN9NG"> <u> Pruebalo tu mismo </u> </a> </p>
+    		text-align: center;
+    		color: red;
+			}</pre>
+      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOQMIYN9NG"> <u> Pruébalo tú mismo </u> </a> </p>
       <h3 style="font-size:100%";> <b>El Selector <u>class</u></b></h3>
-      <p align="justify"> El selector de clases selecciona elementos con un atributo de clase específico. Para seleccionar elementos con una clase específica, se tiene que escribir un punto (.) Seguido del nombre de la clase:</p>
+      <p align="justify"> El selector de clases selecciona elementos con un atributo de clase específico. Para seleccionar elementos con una clase específica, se tiene que escribir un punto (.) seguido del nombre de la clase:</p>
       <pre class="pre">.center {
-    text-align: center;
-    color: red;
-}</pre>
-      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOUH7R2BSC"> <u> Pruebalo tu mismo </u> </a> </p>
-      <p align="justify">También puedes especificar que sólo los elementos HTML específicos deben verse afectados por una clase:</p>
+    		text-align: center;
+    		color: red;
+			}</pre>
+      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOUH7R2BSC"> <u> Pruébalo tú mismo </u> </a> </p>
+      <p align="justify">También puedes especificar que solo los elementos HTML específicos deben verse afectados por una clase:</p>
       <pre class="pre">p.center {
-    text-align: center;
-    color: red;
-}</pre>
-      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOWIKPZ4AQ"> <u> Pruebalo tu mismo </u> </a> </p>
-      <h3 style="font-size:100%";> <b> <u>Grupando</u> selectores</b></h3>
-      <p align="justify"> A veces, nos encontramos en una situación de que en diferentes selectores, tenemos los mismos declaraciones. Entonces, podemos gruparlos. Será mejor agrupar los selectores, para minimizar el código. Para agrupar selectores, separe cada selector con una coma.</p>
+    		text-align: center;
+    		color: red;
+			}</pre>
+      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZOWIKPZ4AQ"> <u> Pruébalo tú mismo </u> </a> </p>
+      <h3 style="font-size:100%";> <b> <u>Agrupando</u> selectores</b></h3>
+      <p align="justify"> A veces, nos encontramos en una situación de que en diferentes selectores, tenemos las mismas declaraciones. Entonces, podemos agruparlos. Será mejor agrupar los selectores, para minimizar el código. Para agrupar selectores, separe cada selector con una coma.</p>
       <pre class="pre">h1, h2, p {
-    text-align: center;
-    color: red;
-}</pre>
-      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZP28Q408GM"> <u> Pruebalo tu mismo </u> </a> </p>
+    		text-align: center;
+    		color: red;
+			}</pre>
+      <p> <a href="http://www.w3schools.com/code/tryit.asp?filename=FBZP28Q408GM"> <u> Pruébalo tú mismo </u> </a> </p>
       <br>
       <table>
         <td>
